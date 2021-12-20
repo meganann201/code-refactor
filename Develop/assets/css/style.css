@@ -51,9 +51,11 @@ a {
     text-decoration: none;
 }
 
-/* paragraph font size */
-p {
-    font-size: 16px;
+/* content section*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 /* hero image */
@@ -76,13 +78,6 @@ p {
     margin-left: 25px;
 }
 
-/* content section*/
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
 .search-engine-optimization, .online-reputation-management, .social-media-marketing  {
     margin-bottom: 20px;
     padding: 50px;
@@ -99,6 +94,11 @@ p {
 .search-engine-optimization h2, .social-media-marketing h2, .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* paragraph font size */
+p {
+    font-size: 16px;
 }
 
 /* benefits section*/
